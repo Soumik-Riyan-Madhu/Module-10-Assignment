@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Generator | Soumik</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <section class="ai-card">
+            <div class="header">
+                <div class="ai-icon">✦</div>
+                <h1>
+                    AI Generator
+                    <p>Ask anything and let AI generate the answer.</p>
+                </h1>
+            </div>
+            <form id="aiForm">
+                <label for="prompt">Your Prompt</label>
+                <textarea id="prompt" placeholder="Ask me anything..."rows="5"></textarea>
+                <p id="errorMessage" class="error"></p>
+                <button type="submit" id="generateBtn">
+                    <span>Generate</span>
+                    <span class="arrow">→</span>
+                </button>
+            </form>
+            <div class="result-box">
+                <div class="result-header">
+                    <h2>AI Response</h2>
+                    <span id="status">Ready</span>
+                </div>
+                <div id="result">
+                    <p class="placeholder">
+                        Your AI generated response will appear here...
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
