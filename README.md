@@ -232,14 +232,6 @@ This prevents the private API key from being exposed publicly.
 
 ---
 
-## 🌐 GitHub Repository
-
-**Public Repository:**
-
-https://github.com/Soumik-Riyan-Madhu/Module-10-Assignment
-
----
-
 ## 👨‍💻 Author
 
 **Soumik Riyan Madhu**
